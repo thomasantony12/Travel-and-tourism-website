@@ -65,48 +65,21 @@
     <!-- Topbar Start -->
     <div class="container-fluid bg-dark px-5 d-none d-lg-block">
       <div class="row gx-0">
-        <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
+        <div class="col-lg-12 text-center text-lg-start mb-2 mb-lg-0">
           <div class="d-inline-flex align-items-center" style="height: 45px">
             <small class="me-3 text-light"
               ><i class="fa fa-map-marker-alt me-2"></i>Thathampally p.o,
-              Alappuzha, Kerala</small
-            >
+              Alappuzha, Kerala</small>
             <small class="me-3 text-light"
-              ><i class="fa fa-phone-alt me-2"></i>+91 8281311741</small
-            >
+              ><i class="fa fa-phone-alt me-2"></i>+91 8281311741</small>
             <small class="text-light"
               ><i class="fa fa-envelope-open me-2"></i
-              >vargheseantonyputhenpurackal21@gmail.com</small
-            >
+              >vargheseantonyputhenpurackal21@gmail.com</small>
           </div>
-        </div>
-        <div class="col-lg-4 text-center text-lg-end">
-          <div class="d-inline-flex align-items-center" style="height: 45px">
-            <a
-              class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2"
-              href=""
-              ><i class="fab fa-twitter fw-normal"></i
-            ></a>
-            <a
-              class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2"
-              href=""
-              ><i class="fab fa-facebook-f fw-normal"></i
-            ></a>
-            <a
-              class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2"
-              href=""
-              ><i class="fab fa-linkedin-in fw-normal"></i
-            ></a>
-            <a
-              class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2"
-              href=""
-              ><i class="fab fa-instagram fw-normal"></i
-            ></a>
-            <a
-              class="btn btn-sm btn-outline-light btn-sm-square rounded-circle"
-              href=""
-              ><i class="fab fa-youtube fw-normal"></i
-            ></a>
+          <div class="d-inline-flex ml-4 align-items-center" style="height: 45px">
+            <a href="https://www.instagram.com/_memorablevoyages_?igsh=dnhyc3BhMWFpcmZh">
+              <small class="me-3 text-light"><i class="fab fa-instagram fw-normal p-1"></i>Instagram</small>
+            </a>
           </div>
         </div>
       </div>
@@ -475,7 +448,8 @@
             </div>
             <div class="col-md-6">
               <h1 class="text-white mb-4">Book A Tour</h1>
-              <form id="submit-form" action="">
+              <form action="https://api.web3forms.com/submit" method="POST" id="submit-form">
+                <input type="hidden" name="access_key" value="c36fffab-3997-4b96-891c-b4e97a5c4286">
                 <div class="row g-3">
                   <div class="col-md-6">
                     <div class="form-floating">
@@ -487,6 +461,18 @@
                         placeholder="Your Name"
                       />
                       <label for="name">Your Name</label>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-floating">
+                      <input
+                        type="text"
+                        name="Phone"
+                        class="form-control bg-transparent"
+                        id="Phone"
+                        placeholder="Your Number"
+                      />
+                      <label for="name">Phone number</label>
                     </div>
                   </div>
                   <div class="col-md-6">
@@ -526,9 +512,11 @@
                         name="Destination"
                         id="select1"
                       >
-                        <option value="1">Destination 1</option>
-                        <option value="2">Destination 2</option>
-                        <option value="3">Destination 3</option>
+                        <option value="Goa">Goa</option>
+                        <option value="Alleppey">Alleppey</option>
+                        <option value="Varkala">Varkala</option>
+                        <option value="Kovalam">Kovalam</option>
+                        <option value="Others">Others</option>
                       </select>
                       <label for="select1">Destination</label>
                     </div>
@@ -550,8 +538,8 @@
                       class="btn btn-outline-light w-100 py-3"
                       type="submit"
                       value="submit"
-                      onclick="window.open('https://thomasantony12.github.io/Deploying-in-progress/')"
                     >
+                    <!-- onclick="window.open('https://thomasantony12.github.io/Deploying-in-progress/')" -->
                       Book Now
                     </button>
                   </div>
@@ -753,17 +741,8 @@
               >vargheseantonyputhenpurackal21@gmail.com
             </p>
             <div class="d-flex pt-2">
-              <a class="btn btn-outline-light btn-social" href=""
-                ><i class="fab fa-twitter"></i
-              ></a>
-              <a class="btn btn-outline-light btn-social" href=""
-                ><i class="fab fa-facebook-f"></i
-              ></a>
-              <a class="btn btn-outline-light btn-social" href=""
-                ><i class="fab fa-youtube"></i
-              ></a>
-              <a class="btn btn-outline-light btn-social" href=""
-                ><i class="fab fa-linkedin-in"></i
+              <a class="btn btn-outline-light btn-social" href="https://www.instagram.com/_memorablevoyages_?igsh=dnhyc3BhMWFpcmZh"
+                ><i class="fab fa-instagram"></i
               ></a>
             </div>
           </div>
@@ -825,7 +804,7 @@
 
               <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
               Designed By
-              <a class="border-bottom" href="https://htmlcodex.com"
+              <a class="border-bottom" href="https://www.instagram.com/_ditto_developer_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
                 >Thomas Antony</a
               >
             </div>
@@ -860,6 +839,5 @@
     <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
     <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
     <script src="js/main.js"></script>
-    <script src="js/googlesheet.js"></script>
   </body>
 </html>
